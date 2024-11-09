@@ -15,10 +15,10 @@
 
         default_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BSPC |
-            // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | BSPC |   | SPACE | RSE  | ALT |
+            // | CAPS |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | ESC  |
+            // | TAB  |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
+            // | DEL  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | Tog(4) |
+            //                    | GUI | LWR | BSPC |   | SPACE | RSE  | NAV |
 
             bindings = <
 &kp CAPS  &kp Q  &kp W           &kp F               &kp P        &kp B       &kp J      &kp L        &kp U        &kp Y       &kp SEMI  &kp ESCAPE
